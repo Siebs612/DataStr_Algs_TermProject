@@ -1,0 +1,5 @@
+~               VAL      Mlps    Rich    Bloom  Edina
+Minneapolis      G         ~       ~       ~      ~
+Richfield        ~        10       ~       ~      3
+Bloomington      S         ~       5       ~      13
+Edina            ~         6       ~       ~      ~

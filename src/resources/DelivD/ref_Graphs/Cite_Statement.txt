@@ -1,0 +1,8 @@
+@Note
+The results for graphs f1 and f2 were
+solved by myself. For the 8x8 and 12x12
+graph I used an online calculator to generate
+the answers and then I checked them against
+this program. The web site was:
+
+https://algorithms.discrete.ma.tum.de/graph-algorithms/spp-floyd-warshall/index_en.html

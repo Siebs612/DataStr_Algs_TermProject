@@ -1,0 +1,105 @@
+Initial Main Matrix:
+ *** |    A    B    C    D
+--------------------------
+    A|    0    2    ~    2
+    B|    0    0    ~    2
+    C|    1   -1    0    ~
+    D|    ~   -1   -1    0
+
+Initial Previous Node Matrix
+ *** |    A    B    C    D
+--------------------------
+    A|    ~    A    ~    A
+    B|    B    ~    ~    B
+    C|    C    C    ~    ~
+    D|    ~    D    D    ~
+
+>--------------------------<
+
+Main Matrix Iteration: #1 thru Node A
+ *** |    A    B    C    D
+--------------------------
+    A|    0    2    ~    2
+    B|    0    0    ~    2
+    C|    1   -1    0    3
+    D|    ~   -1   -1    0
+
+Previous Node Matrix Iteration: #1 thru Node A
+ *** |    A    B    C    D
+--------------------------
+    A|    ~    A    ~    A
+    B|    B    ~    ~    B
+    C|    C    C    ~    A
+    D|    ~    D    D    ~
+
+>--------------------------<
+
+Main Matrix Iteration: #2 thru Node B
+ *** |    A    B    C    D
+--------------------------
+    A|    0    2    ~    2
+    B|    0    0    ~    2
+    C|   -1   -1    0    1
+    D|   -1   -1   -1    0
+
+Previous Node Matrix Iteration: #2 thru Node B
+ *** |    A    B    C    D
+--------------------------
+    A|    ~    A    ~    A
+    B|    B    ~    ~    B
+    C|    B    C    ~    B
+    D|    B    D    D    ~
+
+>--------------------------<
+
+Main Matrix Iteration: #3 thru Node C
+ *** |    A    B    C    D
+--------------------------
+    A|    0    2    ~    2
+    B|    0    0    ~    2
+    C|   -1   -1    0    1
+    D|   -2   -2   -1    0
+
+Previous Node Matrix Iteration: #3 thru Node C
+ *** |    A    B    C    D
+--------------------------
+    A|    ~    A    ~    A
+    B|    B    ~    ~    B
+    C|    B    C    ~    B
+    D|    C    C    D    ~
+
+>--------------------------<
+
+Main Matrix Iteration: #4 thru Node D
+ *** |    A    B    C    D
+--------------------------
+    A|    0    0    1    2
+    B|    0    0    1    2
+    C|   -1   -1    0    1
+    D|   -2   -2   -1    0
+
+Previous Node Matrix Iteration: #4 thru Node D
+ *** |    A    B    C    D
+--------------------------
+    A|    ~    D    D    A
+    B|    B    ~    D    B
+    C|    B    C    ~    B
+    D|    C    C    D    ~
+
+>--------------------------<
+
+Final Main Matrix:
+ *** |    A    B    C    D
+--------------------------
+    A|    0    0    1    2
+    B|    0    0    1    2
+    C|   -1   -1    0    1
+    D|   -2   -2   -1    0
+
+Final Previous Node Matrix:
+ *** |    A    B    C    D
+--------------------------
+    A|    ~    D    D    A
+    B|    B    ~    D    B
+    C|    B    C    ~    B
+    D|    C    C    D    ~

@@ -1,0 +1,4 @@
+~ val A B C
+Aa S  ~ 3 4
+Bb ~  ~ ~ 1
+Cc G  ~ ~ ~
